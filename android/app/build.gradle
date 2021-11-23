@@ -85,7 +85,6 @@ dependencies {
     implementation project(':react-native-maps')
     implementation project(':react-native-vector-icons')
     implementation project(':react-native-google-places')
-    implementation project(':realm')
     implementation project(':@merryjs_photo-viewer')
     implementation project(':react-native-onesignal')
     implementation project(':react-native-linear-gradient')

@@ -9,8 +9,6 @@ import com.airbnb.android.react.maps.MapsPackage;
 import com.oblador.vectoricons.VectorIconsPackage;
 import com.arttitude360.reactnative.rngoogleplaces.RNGooglePlacesPackage;
 
-import io.realm.react.RealmReactPackage;
-
 import com.geektime.rnonesignalandroid.ReactNativeOneSignalPackage;
 import com.reactnative.ivpusic.imagepicker.PickerPackage;
 import com.dylanvann.fastimage.FastImageViewPackage;
@@ -44,7 +42,6 @@ public class MainApplication extends Application implements ReactApplication {
                     new MapsPackage(),
                     new VectorIconsPackage(),
                     new RNGooglePlacesPackage(),
-                    new RealmReactPackage(),
                     new MerryPhotoViewPackage(),
                     new ReactNativeOneSignalPackage(),
                     new LinearGradientPackage(),
