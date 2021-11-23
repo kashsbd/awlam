@@ -3,6 +3,9 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/compressor-2.1.0.aar/eb68c480799a639cfeb27f9882141ad6/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/compressor-2.1.0.aar/eb68c480799a639cfeb27f9882141ad6/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/compressor-2.1.0.aar/5eccf904be2447186786fed3d8160a5e/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/compressor-2.1.0.aar/5eccf904be2447186786fed3d8160a5e/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/compressor-2.1.0.aar/5eccf904be2447186786fed3d8160a5e/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

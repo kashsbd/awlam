@@ -75,6 +75,7 @@
 		73BC4BED7CE64D2D8B9BC264 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 088D954F8D844373B922EA48 /* Zocial.ttf */; };
 		AC9CCAD4999843B29E88B841 /* libAirMaps.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F57F3EB377641C7BB8E32E2 /* libAirMaps.a */; };
 		5DADCC97D0604C4B9EE8CE9F /* libRNShare.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DEC144D17EA14808886F5456 /* libRNShare.a */; };
+		D5001ECEAB97479EA4BB8784 /* libRNCToolbarAndroid.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19CE8F6A4FE44CFCAB6B8E7C /* libRNCToolbarAndroid.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -431,6 +432,8 @@
 		1F57F3EB377641C7BB8E32E2 /* libAirMaps.a */ = {isa = PBXFileReference; name = "libAirMaps.a"; path = "libAirMaps.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 		35F9F0DE3FF84C23B97574F0 /* RNShare.xcodeproj */ = {isa = PBXFileReference; name = "RNShare.xcodeproj"; path = "../node_modules/react-native-share/ios/RNShare.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
 		DEC144D17EA14808886F5456 /* libRNShare.a */ = {isa = PBXFileReference; name = "libRNShare.a"; path = "libRNShare.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		DBF675F7E03C4810A72A0CFE /* RNCToolbarAndroid.xcodeproj */ = {isa = PBXFileReference; name = "RNCToolbarAndroid.xcodeproj"; path = "../node_modules/@react-native-community/toolbar-android/ios/RNCToolbarAndroid.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		19CE8F6A4FE44CFCAB6B8E7C /* libRNCToolbarAndroid.a */ = {isa = PBXFileReference; name = "libRNCToolbarAndroid.a"; path = "libRNCToolbarAndroid.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -473,6 +476,7 @@
 				2CC3BA4DC20144D1BB081015 /* libRNVectorIcons.a in Frameworks */,
 				AC9CCAD4999843B29E88B841 /* libAirMaps.a in Frameworks */,
 				5DADCC97D0604C4B9EE8CE9F /* libRNShare.a in Frameworks */,
+				D5001ECEAB97479EA4BB8784 /* libRNCToolbarAndroid.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -675,6 +679,7 @@
 				376193EB14BB4BA7B7F32A7E /* RNVectorIcons.xcodeproj */,
 				F4423E72F831475D9EC09A1C /* AirMaps.xcodeproj */,
 				35F9F0DE3FF84C23B97574F0 /* RNShare.xcodeproj */,
+				DBF675F7E03C4810A72A0CFE /* RNCToolbarAndroid.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -1355,6 +1360,7 @@
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Awlam.app/Awlam";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1371,6 +1377,7 @@
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
 					"$(SRCROOT)/../node_modules/react-native-maps/lib/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-share/ios",
+					"$(SRCROOT)/../node_modules/@react-native-community/toolbar-android/ios",
 				);
 			};
 			name = Debug;
@@ -1392,6 +1399,7 @@
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Awlam.app/Awlam";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1408,6 +1416,7 @@
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
 					"$(SRCROOT)/../node_modules/react-native-maps/lib/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-share/ios",
+					"$(SRCROOT)/../node_modules/@react-native-community/toolbar-android/ios",
 				);
 			};
 			name = Release;
@@ -1443,6 +1452,7 @@
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
 					"$(SRCROOT)/../node_modules/react-native-maps/lib/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-share/ios",
+					"$(SRCROOT)/../node_modules/@react-native-community/toolbar-android/ios",
 				);
 			};
 			name = Debug;
@@ -1477,6 +1487,7 @@
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
 					"$(SRCROOT)/../node_modules/react-native-maps/lib/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-share/ios",
+					"$(SRCROOT)/../node_modules/@react-native-community/toolbar-android/ios",
 				);
 			};
 			name = Release;
@@ -1506,6 +1517,7 @@
 				TVOS_DEPLOYMENT_TARGET = 9.2;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1522,6 +1534,7 @@
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
 					"$(SRCROOT)/../node_modules/react-native-maps/lib/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-share/ios",
+					"$(SRCROOT)/../node_modules/@react-native-community/toolbar-android/ios",
 				);
 			};
 			name = Debug;
@@ -1551,6 +1564,7 @@
 				TVOS_DEPLOYMENT_TARGET = 9.2;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1567,6 +1581,7 @@
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
 					"$(SRCROOT)/../node_modules/react-native-maps/lib/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-share/ios",
+					"$(SRCROOT)/../node_modules/@react-native-community/toolbar-android/ios",
 				);
 			};
 			name = Release;
@@ -1595,6 +1610,7 @@
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1611,6 +1627,7 @@
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
 					"$(SRCROOT)/../node_modules/react-native-maps/lib/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-share/ios",
+					"$(SRCROOT)/../node_modules/@react-native-community/toolbar-android/ios",
 				);
 			};
 			name = Debug;
@@ -1639,6 +1656,7 @@
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1655,6 +1673,7 @@
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
 					"$(SRCROOT)/../node_modules/react-native-maps/lib/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-share/ios",
+					"$(SRCROOT)/../node_modules/@react-native-community/toolbar-android/ios",
 				);
 			};
 			name = Release;

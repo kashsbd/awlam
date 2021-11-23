@@ -3,6 +3,9 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/webpsupport-1.10.0.aar/b5969084ee6776a3a72b51ebbb43c9c3/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/webpsupport-1.10.0.aar/b5969084ee6776a3a72b51ebbb43c9c3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/webpsupport-1.10.0.aar/0a18637fcf196e9552f80fe95025f5bd/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/webpsupport-1.10.0.aar/0a18637fcf196e9552f80fe95025f5bd/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/webpsupport-1.10.0.aar/0a18637fcf196e9552f80fe95025f5bd/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

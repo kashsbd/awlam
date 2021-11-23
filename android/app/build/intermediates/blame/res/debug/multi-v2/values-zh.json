@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/prakash/Git/Frontend/Awlam/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh/values-zh.xml",
+            "outputFile": "/Users/kash/Playground/cli/awlam/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh/values-zh.xml",
             "map": [
                 {
-                    "source": "/home/prakash/.gradle/caches/transforms-1/files-1.1/ucrop-2.2.2-native.aar/c4a207c88a877b9cdd0a19cc07426519/res/values-zh/values-zh.xml",
+                    "source": "/Users/kash/.gradle/caches/transforms-1/files-1.1/ucrop-2.2.2-native.aar/2b7c44e1145b8252b12e126301e22844/res/values-zh/values-zh.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",

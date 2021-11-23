@@ -3,6 +3,9 @@
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/980ceac97802ec52133b51e86c0c599b/res" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/980ceac97802ec52133b51e86c0c599b/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/89ba08cde9729ad912bf72c87a800f2a/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/89ba08cde9729ad912bf72c87a800f2a/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/89ba08cde9729ad912bf72c87a800f2a/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

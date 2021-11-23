@@ -2,21 +2,21 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../node_modules/@merryjs/photo-viewer/android/@merryjs_photo-viewer.iml" filepath="$PROJECT_DIR$/../node_modules/@merryjs/photo-viewer/android/@merryjs_photo-viewer.iml" />
       <module fileurl="file://$PROJECT_DIR$/Awlam.iml" filepath="$PROJECT_DIR$/Awlam.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-fast-image/android/react-native-fast-image.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-fast-image/android/react-native-fast-image.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-google-places/android/react-native-google-places.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-google-places/android/react-native-google-places.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-image-crop-picker/android/react-native-image-crop-picker.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-image-crop-picker/android/react-native-image-crop-picker.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-keep-awake/android/react-native-keep-awake.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-keep-awake/android/react-native-keep-awake.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-linear-gradient/android/react-native-linear-gradient.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-linear-gradient/android/react-native-linear-gradient.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/react-native-maps.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/react-native-maps.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-onesignal/android/react-native-onesignal.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-onesignal/android/react-native-onesignal.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-orientation/android/react-native-orientation.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-orientation/android/react-native-orientation.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-share/android/react-native-share.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-share/android/react-native-share.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-vector-icons/android/react-native-vector-icons.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-vector-icons/android/react-native-vector-icons.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-video/android-exoplayer/react-native-video.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-video/android-exoplayer/react-native-video.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../node_modules/realm/android/realm.iml" filepath="$PROJECT_DIR$/../node_modules/realm/android/realm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1415094927/Awlam.@merryjs_photo-viewer.iml" filepath="$PROJECT_DIR$/.idea/modules/1415094927/Awlam.@merryjs_photo-viewer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1738837836/Awlam.@react-native-community_toolbar-android.iml" filepath="$PROJECT_DIR$/.idea/modules/1738837836/Awlam.@react-native-community_toolbar-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Awlam.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Awlam.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1005737231/Awlam.react-native-fast-image.iml" filepath="$PROJECT_DIR$/.idea/modules/1005737231/Awlam.react-native-fast-image.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/593543323/Awlam.react-native-google-places.iml" filepath="$PROJECT_DIR$/.idea/modules/593543323/Awlam.react-native-google-places.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1774117044/Awlam.react-native-image-crop-picker.iml" filepath="$PROJECT_DIR$/.idea/modules/1774117044/Awlam.react-native-image-crop-picker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1107915426/Awlam.react-native-keep-awake.iml" filepath="$PROJECT_DIR$/.idea/modules/1107915426/Awlam.react-native-keep-awake.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1638797395/Awlam.react-native-linear-gradient.iml" filepath="$PROJECT_DIR$/.idea/modules/1638797395/Awlam.react-native-linear-gradient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/384778674/Awlam.react-native-maps.iml" filepath="$PROJECT_DIR$/.idea/modules/384778674/Awlam.react-native-maps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1117519433/Awlam.react-native-onesignal.iml" filepath="$PROJECT_DIR$/.idea/modules/1117519433/Awlam.react-native-onesignal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1581231819/Awlam.react-native-orientation.iml" filepath="$PROJECT_DIR$/.idea/modules/1581231819/Awlam.react-native-orientation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2108319206/Awlam.react-native-share.iml" filepath="$PROJECT_DIR$/.idea/modules/-2108319206/Awlam.react-native-share.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1009382603/Awlam.react-native-vector-icons.iml" filepath="$PROJECT_DIR$/.idea/modules/-1009382603/Awlam.react-native-vector-icons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1246455386/Awlam.react-native-video.iml" filepath="$PROJECT_DIR$/.idea/modules/-1246455386/Awlam.react-native-video.iml" />
     </modules>
   </component>
 </project>

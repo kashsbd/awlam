@@ -3,6 +3,9 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/animated-gif-1.10.0.aar/81df0081bafd750680d925e9dcea5a57/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/animated-gif-1.10.0.aar/81df0081bafd750680d925e9dcea5a57/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/animated-gif-1.10.0.aar/1cbea39714d634d41791dc658d64e423/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/animated-gif-1.10.0.aar/1cbea39714d634d41791dc658d64e423/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/animated-gif-1.10.0.aar/1cbea39714d634d41791dc658d64e423/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

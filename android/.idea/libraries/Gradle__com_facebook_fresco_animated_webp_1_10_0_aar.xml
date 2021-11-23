@@ -3,6 +3,9 @@
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/animated-webp-1.10.0.aar/8c1bb55a3211fb5e6245049f992db91d/res" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/animated-webp-1.10.0.aar/8c1bb55a3211fb5e6245049f992db91d/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/animated-webp-1.10.0.aar/f36ff31fe438f428777a794d7131b1e6/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/animated-webp-1.10.0.aar/f36ff31fe438f428777a794d7131b1e6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/animated-webp-1.10.0.aar/f36ff31fe438f428777a794d7131b1e6/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

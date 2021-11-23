@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/prakash/Git/Frontend/Awlam/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v22/values-v22.xml",
+            "outputFile": "/Users/kash/Playground/cli/awlam/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v22/values-v22.xml",
             "map": [
                 {
-                    "source": "/home/prakash/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/2a1c442c7f67ccd48d491de2def62c73/res/values-v22/values-v22.xml",
+                    "source": "/Users/kash/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/ecb17ded622572619a357d25f11aa912/res/values-v22/values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",

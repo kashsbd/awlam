@@ -1,2 +1,2 @@
-# Referenced at /home/prakash/Git/Frontend/Awlam/android/app/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:59
+# Referenced at /Users/kash/Playground/cli/awlam/android/app/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:59
 -keep class com.awlam.MainApplication { <init>(...); }

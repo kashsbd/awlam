@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/prakash/Git/Frontend/Awlam/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-my-rMM/values-my-rMM.xml",
+            "outputFile": "/Users/kash/Playground/cli/awlam/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-my-rMM/values-my-rMM.xml",
             "map": [
                 {
-                    "source": "/home/prakash/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-2.7.3.aar/296a334f6ddc63b2f8fa34a9b3147fbc/res/values-my-rMM/values-my-rMM.xml",
+                    "source": "/Users/kash/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-2.7.3.aar/2be990a7f15c465f9f51973e36fa876c/res/values-my-rMM/values-my-rMM.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
