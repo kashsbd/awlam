@@ -1,4 +1,4 @@
-const local = 'http://192.168.1.58:3000';
+const local = 'http://192.168.1.2:3000';
 
 const server = 'https://api.awlam.com';
 
