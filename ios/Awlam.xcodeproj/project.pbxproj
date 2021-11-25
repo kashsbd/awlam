@@ -52,7 +52,6 @@
 		22F5B7CCE8BD4C80A518E764 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F8C3821D534D417AB4904D4B /* Roboto-Light.ttf */; };
 		27901BFA00404FBFB1082EAD /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87008C29068F4B2FB876EA53 /* Roboto-Medium.ttf */; };
 		88BCD103E8034DC18AF40BCC /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 28A6F4987048476AAB3C4AF3 /* Roboto-Regular.ttf */; };
-		4C30FBB0BDC34963AFAFA6D5 /* libRealmReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146F5CD2102C498F913EABAB /* libRealmReact.a */; };
 		1FF2C7BABE5A438E930BF30A /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A1D5AA55425748A0873AE7C7 /* libc++.tbd */; };
 		282C3E1BA7BD44DFB9F297EE /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E74EBE3906046AD86F6CD9E /* libz.tbd */; };
 		B4BFE378203C4EA6A4F26EE3 /* libRNGooglePlaces.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C007EAAE336E4756873E0F2A /* libRNGooglePlaces.a */; };
@@ -64,6 +63,8 @@
 		AC9CCAD4999843B29E88B841 /* libAirMaps.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F57F3EB377641C7BB8E32E2 /* libAirMaps.a */; };
 		5DADCC97D0604C4B9EE8CE9F /* libRNShare.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DEC144D17EA14808886F5456 /* libRNShare.a */; };
 		D5001ECEAB97479EA4BB8784 /* libRNCToolbarAndroid.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19CE8F6A4FE44CFCAB6B8E7C /* libRNCToolbarAndroid.a */; };
+		1E1B5854C7C9484CA032ACF0 /* libRealmReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 109943D38BD9493B9AEF249E /* libRealmReact.a */; };
+		685C85B0CC9940698D517149 /* libGCDWebServer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C667CE83BD44099B3C2177 /* libGCDWebServer.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -392,8 +393,6 @@
 		F8C3821D534D417AB4904D4B /* Roboto-Light.ttf */ = {isa = PBXFileReference; name = "Roboto-Light.ttf"; path = "../app/assets/fonts/Roboto-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		87008C29068F4B2FB876EA53 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; name = "Roboto-Medium.ttf"; path = "../app/assets/fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		28A6F4987048476AAB3C4AF3 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; name = "Roboto-Regular.ttf"; path = "../app/assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		90A468B27D3D4B3AA8E48990 /* RealmReact.xcodeproj */ = {isa = PBXFileReference; name = "RealmReact.xcodeproj"; path = "../node_modules/realm/react-native/ios/RealmReact.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
-		146F5CD2102C498F913EABAB /* libRealmReact.a */ = {isa = PBXFileReference; name = "libRealmReact.a"; path = "libRealmReact.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 		A1D5AA55425748A0873AE7C7 /* libc++.tbd */ = {isa = PBXFileReference; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = sourcecode.text-based-dylib-definition; explicitFileType = undefined; includeInIndex = 0; };
 		3E74EBE3906046AD86F6CD9E /* libz.tbd */ = {isa = PBXFileReference; name = "libz.tbd"; path = "usr/lib/libz.tbd"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = sourcecode.text-based-dylib-definition; explicitFileType = undefined; includeInIndex = 0; };
 		F42BA8D97AD9411495ED854A /* RNGooglePlaces.xcodeproj */ = {isa = PBXFileReference; name = "RNGooglePlaces.xcodeproj"; path = "../node_modules/react-native-google-places/ios/RNGooglePlaces.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
@@ -409,6 +408,9 @@
 		DEC144D17EA14808886F5456 /* libRNShare.a */ = {isa = PBXFileReference; name = "libRNShare.a"; path = "libRNShare.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 		DBF675F7E03C4810A72A0CFE /* RNCToolbarAndroid.xcodeproj */ = {isa = PBXFileReference; name = "RNCToolbarAndroid.xcodeproj"; path = "../node_modules/@react-native-community/toolbar-android/ios/RNCToolbarAndroid.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
 		19CE8F6A4FE44CFCAB6B8E7C /* libRNCToolbarAndroid.a */ = {isa = PBXFileReference; name = "libRNCToolbarAndroid.a"; path = "libRNCToolbarAndroid.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		99D1AAE155614A77A1C9F1AE /* RealmReact.xcodeproj */ = {isa = PBXFileReference; name = "RealmReact.xcodeproj"; path = "../node_modules/realm/react-native/ios/RealmReact.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		109943D38BD9493B9AEF249E /* libRealmReact.a */ = {isa = PBXFileReference; name = "libRealmReact.a"; path = "libRealmReact.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		76C667CE83BD44099B3C2177 /* libGCDWebServer.a */ = {isa = PBXFileReference; name = "libGCDWebServer.a"; path = "libGCDWebServer.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -444,13 +446,14 @@
 				0117BC06E2FE452AA6ED9820 /* libBVLinearGradient.a in Frameworks */,
 				607107E85D5049D8A2ACF5EA /* libRCTOneSignal.a in Frameworks */,
 				52758D9744F7456C8A67661F /* libMerryPhotoViewer.a in Frameworks */,
-				4C30FBB0BDC34963AFAFA6D5 /* libRealmReact.a in Frameworks */,
 				1FF2C7BABE5A438E930BF30A /* libc++.tbd in Frameworks */,
 				282C3E1BA7BD44DFB9F297EE /* libz.tbd in Frameworks */,
 				B4BFE378203C4EA6A4F26EE3 /* libRNGooglePlaces.a in Frameworks */,
 				AC9CCAD4999843B29E88B841 /* libAirMaps.a in Frameworks */,
 				5DADCC97D0604C4B9EE8CE9F /* libRNShare.a in Frameworks */,
 				D5001ECEAB97479EA4BB8784 /* libRNCToolbarAndroid.a in Frameworks */,
+				1E1B5854C7C9484CA032ACF0 /* libRealmReact.a in Frameworks */,
+				685C85B0CC9940698D517149 /* libGCDWebServer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -648,11 +651,11 @@
 				22A58132A9F74E4CB919F7AF /* BVLinearGradient.xcodeproj */,
 				9A9D5910AE484225B69F11EC /* RCTOneSignal.xcodeproj */,
 				DA2DEF59D7C541ED83E2BEB1 /* MerryPhotoViewer.xcodeproj */,
-				90A468B27D3D4B3AA8E48990 /* RealmReact.xcodeproj */,
 				F42BA8D97AD9411495ED854A /* RNGooglePlaces.xcodeproj */,
 				F4423E72F831475D9EC09A1C /* AirMaps.xcodeproj */,
 				35F9F0DE3FF84C23B97574F0 /* RNShare.xcodeproj */,
 				DBF675F7E03C4810A72A0CFE /* RNCToolbarAndroid.xcodeproj */,
+				99D1AAE155614A77A1C9F1AE /* RealmReact.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -1311,6 +1314,8 @@
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Awlam.app/Awlam";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1322,11 +1327,11 @@
 					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
 					"$(SRCROOT)/../node_modules/react-native-onesignal/ios/**",
 					"$(SRCROOT)/../node_modules/@merryjs/photo-viewer/ios/**",
-					"$(SRCROOT)/../node_modules/realm/src/**",
 					"$(SRCROOT)/../node_modules/react-native-google-places/ios",
 					"$(SRCROOT)/../node_modules/react-native-maps/lib/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-share/ios",
 					"$(SRCROOT)/../node_modules/@react-native-community/toolbar-android/ios",
+					"$(SRCROOT)/../node_modules/realm/src/**",
 				);
 			};
 			name = Debug;
@@ -1348,6 +1353,8 @@
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Awlam.app/Awlam";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1359,11 +1366,11 @@
 					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
 					"$(SRCROOT)/../node_modules/react-native-onesignal/ios/**",
 					"$(SRCROOT)/../node_modules/@merryjs/photo-viewer/ios/**",
-					"$(SRCROOT)/../node_modules/realm/src/**",
 					"$(SRCROOT)/../node_modules/react-native-google-places/ios",
 					"$(SRCROOT)/../node_modules/react-native-maps/lib/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-share/ios",
 					"$(SRCROOT)/../node_modules/@react-native-community/toolbar-android/ios",
+					"$(SRCROOT)/../node_modules/realm/src/**",
 				);
 			};
 			name = Release;
@@ -1394,11 +1401,11 @@
 					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
 					"$(SRCROOT)/../node_modules/react-native-onesignal/ios/**",
 					"$(SRCROOT)/../node_modules/@merryjs/photo-viewer/ios/**",
-					"$(SRCROOT)/../node_modules/realm/src/**",
 					"$(SRCROOT)/../node_modules/react-native-google-places/ios",
 					"$(SRCROOT)/../node_modules/react-native-maps/lib/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-share/ios",
 					"$(SRCROOT)/../node_modules/@react-native-community/toolbar-android/ios",
+					"$(SRCROOT)/../node_modules/realm/src/**",
 				);
 			};
 			name = Debug;
@@ -1428,11 +1435,11 @@
 					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
 					"$(SRCROOT)/../node_modules/react-native-onesignal/ios/**",
 					"$(SRCROOT)/../node_modules/@merryjs/photo-viewer/ios/**",
-					"$(SRCROOT)/../node_modules/realm/src/**",
 					"$(SRCROOT)/../node_modules/react-native-google-places/ios",
 					"$(SRCROOT)/../node_modules/react-native-maps/lib/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-share/ios",
 					"$(SRCROOT)/../node_modules/@react-native-community/toolbar-android/ios",
+					"$(SRCROOT)/../node_modules/realm/src/**",
 				);
 			};
 			name = Release;
@@ -1462,6 +1469,8 @@
 				TVOS_DEPLOYMENT_TARGET = 9.2;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1473,11 +1482,11 @@
 					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
 					"$(SRCROOT)/../node_modules/react-native-onesignal/ios/**",
 					"$(SRCROOT)/../node_modules/@merryjs/photo-viewer/ios/**",
-					"$(SRCROOT)/../node_modules/realm/src/**",
 					"$(SRCROOT)/../node_modules/react-native-google-places/ios",
 					"$(SRCROOT)/../node_modules/react-native-maps/lib/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-share/ios",
 					"$(SRCROOT)/../node_modules/@react-native-community/toolbar-android/ios",
+					"$(SRCROOT)/../node_modules/realm/src/**",
 				);
 			};
 			name = Debug;
@@ -1507,6 +1516,8 @@
 				TVOS_DEPLOYMENT_TARGET = 9.2;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1518,11 +1529,11 @@
 					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
 					"$(SRCROOT)/../node_modules/react-native-onesignal/ios/**",
 					"$(SRCROOT)/../node_modules/@merryjs/photo-viewer/ios/**",
-					"$(SRCROOT)/../node_modules/realm/src/**",
 					"$(SRCROOT)/../node_modules/react-native-google-places/ios",
 					"$(SRCROOT)/../node_modules/react-native-maps/lib/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-share/ios",
 					"$(SRCROOT)/../node_modules/@react-native-community/toolbar-android/ios",
+					"$(SRCROOT)/../node_modules/realm/src/**",
 				);
 			};
 			name = Release;
@@ -1551,6 +1562,8 @@
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1562,11 +1575,11 @@
 					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
 					"$(SRCROOT)/../node_modules/react-native-onesignal/ios/**",
 					"$(SRCROOT)/../node_modules/@merryjs/photo-viewer/ios/**",
-					"$(SRCROOT)/../node_modules/realm/src/**",
 					"$(SRCROOT)/../node_modules/react-native-google-places/ios",
 					"$(SRCROOT)/../node_modules/react-native-maps/lib/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-share/ios",
 					"$(SRCROOT)/../node_modules/@react-native-community/toolbar-android/ios",
+					"$(SRCROOT)/../node_modules/realm/src/**",
 				);
 			};
 			name = Debug;
@@ -1595,6 +1608,8 @@
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1606,11 +1621,11 @@
 					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
 					"$(SRCROOT)/../node_modules/react-native-onesignal/ios/**",
 					"$(SRCROOT)/../node_modules/@merryjs/photo-viewer/ios/**",
-					"$(SRCROOT)/../node_modules/realm/src/**",
 					"$(SRCROOT)/../node_modules/react-native-google-places/ios",
 					"$(SRCROOT)/../node_modules/react-native-maps/lib/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-share/ios",
 					"$(SRCROOT)/../node_modules/@react-native-community/toolbar-android/ios",
+					"$(SRCROOT)/../node_modules/realm/src/**",
 				);
 			};
 			name = Release;
