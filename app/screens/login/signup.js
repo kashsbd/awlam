@@ -289,7 +289,6 @@ export class SignUp extends Component {
                     break;
                 }
                 case 500: {
-                    console.log(res);
                     const errorText = 'Something went wrong.Please try later';
                     this.setState({ loading: false, disNextBtn: false, disSignInBtn: false, errorText, signupErr: true });
                     break;
