@@ -310,7 +310,7 @@ export class TopicCommentList extends PureComponent {
 
         let _mentions = mentions;
 
-        this.text_input.focusInput(false);
+      //  this.text_input.focusInput(false);
 
         //check if it is removing chars
         if (text.length > message.length) {
