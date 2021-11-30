@@ -1,8 +1,8 @@
-const local = 'http://192.168.1.3:3000';
+const local = 'http://192.168.1.5:3000';
 
 const server = 'https://api.awlam.com';
 
-const OneSignal_APP_Id = 'd92f7cdb-f715-430b-8fe0-3dc1b900f863';
+const OneSignal_APP_Id = '94c2b2eb-f114-45ec-835a-f0c03b45e894';
 
 const Google_Api_Key = 'AIzaSyCfF4LJJ3I5p_EdhV3O3FHk4nGej2UJheI';
 

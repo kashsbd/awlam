@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Image } from 'react-native'
 import FastImage from 'react-native-fast-image'
 
 export class AutoResizeImage extends Component {

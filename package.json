@@ -25,7 +25,7 @@
     "react-native-another-toast": "^0.0.6",
     "react-native-country-picker-modal": "^0.6.2",
     "react-native-datepicker": "^1.7.2",
-    "react-native-fast-image": "^5.0.11",
+    "react-native-fast-image": "5.1.2",
     "react-native-floating-action": "^1.13.0",
     "react-native-google-places": "^2.5.2",
     "react-native-image-crop-picker": "^0.21.3",
@@ -46,6 +46,7 @@
     "react-native-ui-kitten": "^3.1.2",
     "react-native-vector-icons": "6.4.2",
     "react-navigation": "^2.18.2",
+    "realm": "2.19.1",
     "socket.io-client": "^2.1.1",
     "url-parse": "^1.4.4"
   },

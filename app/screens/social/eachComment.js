@@ -24,6 +24,7 @@ import { Color } from '../../utils/color';
 export class EachComment extends PureComponent {
     constructor(props) {
         super(props);
+        console.log("props.comment",props.comment);
         this.state = {
             //number of likes of each comment
             likesCount: props.comment.likes ? props.comment.likes.length : 0,
@@ -148,14 +149,14 @@ export class EachComment extends PureComponent {
         } = this.state;
 
         const { comment, postType } = this.props;
-
+        const id = comment.commentor._id ? comment.commentor._id : undefined;
         return (
             <View style={{ flex: 1 }}>
                 <View style={cmtStyles.container}>
                     <TouchableOpacity >
                         <ImageLoad
                             style={cmtStyles.avatar}
-                            source={{ uri: baseUrl + '/users/' + comment.commentor._id + '/profile_pic' }}
+                            source={{ uri: baseUrl + '/users/' + id + '/profile_pic' }}
                             placeholderSource={require('../../assets/images/avator.png')}
                             isShowActivity={false}
                         />
