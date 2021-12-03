@@ -6,7 +6,7 @@ const OneSignal_APP_Id = '94c2b2eb-f114-45ec-835a-f0c03b45e894';
 
 const Google_Api_Key = 'AIzaSyAvKVi-qZa6hEDET1qV9pdLvfuenbpIfMI';
 
-const baseUrl = local;
+const baseUrl = server;
 
 const loginUrl = baseUrl + "/users/login";
 
