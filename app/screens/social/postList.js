@@ -48,7 +48,7 @@ export class PostList extends React.PureComponent {
                 rkType='clear'
                 style={{ width: 40, marginLeft: scale(8) }}
                 onPress={() => navigation.openDrawer()}>
-                <RkText rkType='awesome' style={{ color: Color.fontColor }}>{FontAwesome.bars}</RkText>
+                <Icon name='bars' size={20} color={Color.fontColor} />
             </RkButton>
         ),
         headerRight: (
