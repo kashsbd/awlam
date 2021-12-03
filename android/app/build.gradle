@@ -13,7 +13,8 @@ apply plugin: "com.android.application"
 import com.android.build.OutputFile
 
 project.ext.react = [
-        entryFile: "index.js"
+        entryFile: "index.js",
+        nodeExecutableAndArgs : ["/usr/local/bin/node"]
 ]
 
 apply from: "../../node_modules/react-native/react.gradle"

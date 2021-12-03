@@ -5,6 +5,7 @@ buildscript {
         compileSdkVersion = 27
         targetSdkVersion = 26
         supportLibVersion = "27.1.1"
+        excludeAppGlideModule = true
     }
     repositories {
         google()
