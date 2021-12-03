@@ -8,7 +8,6 @@ import {
 } from 'react-native';
 
 import {
-    RkText,
     RkButton,
 } from 'react-native-ui-kitten';
 
@@ -19,7 +18,6 @@ import { TabView, TabBar } from 'react-native-tab-view';
 import io from 'socket.io-client/dist/socket.io';
 
 import { scale } from '../../utils/scale';
-import { FontAwesome } from '../../assets/icons';
 import { AllPostList } from './allPostList';
 import { PopularPostList } from './popularPostList';
 import { FollowerPostList } from './followerPostList';
