@@ -4,7 +4,7 @@ const server = 'http://172.104.33.119:3000';
 
 const OneSignal_APP_Id = '94c2b2eb-f114-45ec-835a-f0c03b45e894';
 
-const Google_Api_Key = 'AIzaSyAvKVi-qZa6hEDET1qV9pdLvfuenbpIfMI';
+const Google_Api_Key = 'AIzaSyD0YzO3R6IicLAqhru42eg1fctFqCBK8GA';
 
 const baseUrl = server;
 
